@@ -1,0 +1,43 @@
+- title: "Optimization of Electrode Patterns for an ITO-Based Digital Microfluidic through the Finite Element Simulation"
+  authors: "Song, Ze-Rui and Zeng, Jin and Zhou, Jia-Le and Yan, Bing-Yong and Gu, Zhen and Wang, Hui-Feng"
+  journal: "Micromachines"
+  year: 2022
+  volume: "13"
+  number: "10"
+  pages: "1563"
+  doi: "10.3390/mi13101563"
+  url: "https://www.mdpi.com/2072-666X/13/10/1563"
+  abstract: "Indium tin oxide (ITO)-based digital microfluidics (DMF) with unique optical and electrical properties are promising in the development of integrated, automatic and portable analytical systems. The fabrication technique using laser direct etching (LDE) on ITO glass has the advantages of being rapid, low cost and convenient. However, the fabrication resolution of LDE limits the minimum line width for patterns on ITO glasses, leading to a related wider lead wire for the actuating electrodes of DMF compared with photolithography. Therefore, the lead wire of electrodes could affect the droplet motion on the digital microfluidic chip due to the increased contact line with the droplet. Herein, we developed a finite element model of a DMF with improved efficiency to investigate the effect of the lead wire. An optimized electrode pattern was then designed based on a theoretical analysis and validated by a simulation, which significantly decreased the deformation of the droplets down to 0.012 mm. The performance of the optimized electrode was also verified in an experiment. The proposed simulation method could be further extended to other DMF systems or applications to provide an efficient approach for the design and optimization of DMF chips."
+
+- title: "An artificial intelligence-assisted digital microfluidic system for multistate droplet control"
+  authors: "Guo, Kunlun and Song, Zerui and Zhou, Jiale and Shen, Bin and Yan, Bingyong and Gu, Zhen and Wang, Huifeng"
+  journal: "Microsystems & Nanoengineering"
+  year: 2024
+  volume: "10"
+  number: "1"
+  pages: "138"
+  doi: "10.1038/s41378-024-00775-5"
+  url: "https://www.nature.com/articles/s41378-024-00775-5"
+  abstract: "Digital microfluidics (DMF) is a versatile technique for parallel and field-programmable control of individual droplets. Given the high level of variability in droplet manipulation, it is essential to establish self-adaptive and intelligent control methods for DMF systems that are informed by the transient state of droplets and their interactions. However, most related studies focus on droplet localization and shape recognition. In this study, we develop the AI-assisted DMF framework μDropAI for multistate droplet control on the basis of droplet morphology. The semantic segmentation model is integrated into our custom-designed DMF system to recognize the droplet states and their interactions for feedback control with a state machine. The proposed model has strong flexibility and can recognize droplets of different colors and shapes with an error rate of less than 0.63%; it enables control of droplets without user intervention. The coefficient of variation (CV) of the volumes of split droplets can be limited to 2.74%, which is lower than the CV of traditional dispensed droplets, contributing to an improvement in the precision of volume control for droplet splitting. The proposed system inspires the development of semantic-driven DMF systems that can interface with multimodal large language models (MLLMs) for fully automatic control."
+
+- title: "High Frequency and Addressable Impedance Measurement System for On-Site Droplet Analysis in Digital Microfluidics"
+  authors: "Zeng, Jin and Xu, Hang and Song, Ze-Rui and Zhou, Jia-Le and Jiang, Guo-Jun and Yan, Bing-Yong and Gu, Zhen and Wang, Hui-Feng"
+  journal: "Electronics"
+  year: 2024
+  volume: "13"
+  number: "14"
+  pages: "2810"
+  doi: "10.3390/electronics13142810"
+  url: "https://www.mdpi.com/2079-9292/13/14/2810"
+  abstract: "Digital microfluidics is a novel technique for manipulating discrete droplets with the advantages of programmability, small device size, low cost, and easy integration. The development of droplet sensing methods advances the automation control of digital microfluidics. Impedance measurement emerges as a promising technique for droplet localization and characterization due to its non-invasive nature, high sensitivity, simplicity, and cost-effectiveness. However, traditional impedance measurement approaches in digital microfluidics based on the high-voltage actuating signal are limited in sensing accuracy in practical applications. In this paper, we propose a novel droplet impedance sensing system for digital microfluidics by introducing a low-voltage and addressable measurement circuit, which enables impedance measurement over a wide frequency range. The proposed measurement system has also been used for detecting the droplet composition, size, and position in a digital microfluidic chip. The improved impedance sensing method can also promote the applications of the digital microfluidic, which requires high accuracy, real-time, and contactless sensing with automatic sample pretreatment."
+
+- title: "Palm-sized CRISPR sensing platform for on-site Mycoplasma pneumoniae detection"
+  authors: "Li, Jiajun and Huang, Haiqian and Song, Zerui and Chen, Shiying and Xu, Jingsong and Yang, Jun and Zheng, Chenyue and Liu, Yu and Zhang, Junheng and Cao, Li and Liu, Qian and Li, Qiong and Li, Min and Gu, Zhen and Wang, Hua"
+  journal: "Biosensors and Bioelectronics"
+  year: 2025
+  volume: "281"
+  number: null # BibTeX 'month = aug' - no 'number' field. Setting to null.
+  pages: "117458"
+  doi: "10.1016/j.bios.2025.117458"
+  url: "https://www.sciencedirect.com/science/article/pii/S095656632500332X"
+  abstract: "Pneumonia remains a prevalent childhood illness and is the foremost cause of mortality due to infectious diseases among children under the age of five. Mycoplasma pneumoniae (M. pneumoniae) causes the most frequent type of atypical pneumonia in this age group, has raised global health concern. Therefore, there is a pressing need for a rapid, low cost, and user-friendly method for the early diagnosis of M. pneumoniae pneumonia. Herein, we develop a CRISPR sensing platform for on-site M. pneumoniae detection, termed CRAFT (Crispr-based rapid assay device for field testing). The CRAFT provides “sample in-result out” functionality. It completed sample processing and nucleic acid extraction within 5 min at room temperature, with efficiency comparable to commercial kits. RPA and CRISPR/Cas12a reagents were isolated in a closed tube using a movable magnetic bead valve, and the RPA product was then mixed with the CRISPR reagent. The limit of detection for M. pneumoniae using CRAFT was 100 copies/μL, and the method exhibited no cross-reactivity with other respiratory pathogens. CRAFT was utilized to validate 50 clinical samples, and the results demonstrated 100 % consistency with those obtained by qPCR. This versatile platform holds significant potential for point-of-care testing of M. pneumoniae, particularly in resource-limited settings."
