@@ -104,8 +104,8 @@ permalink: /:categories/:year/:month/:day/:title:output_ext
 # livereload: true # set to false if you don't want live reload
 # port: 4000 # default Jekyll port
 # host: 127.0.0.1 # default Jekyll host
-# baseurl: "" # the subpath of your site, e.g. /blog
-# url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://bechanged233.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 # encoding: "utf-8"
 # liquid:
 #   error_mode: strict # 'lax', 'warn', or 'strict'
