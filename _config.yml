@@ -7,8 +7,8 @@ plugins:
   - jekyll-seo-tag
 
 # Social media links (optional)
-twitter_username: jerrysong
-github_username:  jerrysong
+# twitter_username: jerrysong # Removed as no actual username provided
+github_username:  bechanged233
 
 # Navigation (optional)
 navigation:
@@ -87,8 +87,8 @@ permalink: /:categories/:year/:month/:day/:title:output_ext
 # social:
 #   name: Jerry Song
 #   links:
-#     - https://twitter.com/jerrysong
-#     - https://github.com/jerrysong
+#     # - https://twitter.com/jerrysong # Removed
+#     - https://github.com/bechanged233
 
 # Build settings
 # These are usually fine with defaults, but can be customized
