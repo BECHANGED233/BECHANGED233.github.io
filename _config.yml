@@ -1,0 +1,116 @@
+title: Jerry Song - Academic Homepage
+author: Jerry Song
+description: The academic homepage of Jerry Song, PhD Student at East China University of Science and Technology, focusing on Digital Microfluidics.
+theme: jekyll-theme-minimal
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Social media links (optional)
+twitter_username: jerrysong
+github_username:  jerrysong
+
+# Navigation (optional)
+navigation:
+  - title: Home
+    url: /
+  - title: Research
+    url: /research/
+  - title: Publications
+    url: /publications/
+  - title: Contact
+    url: /contact/
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal list of excluded items for the build.
+#
+# Excluded items can be processed by explicitly listing the directories or
+# files' path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+#
+# include:
+#   - _pages # example of including a normally excluded directory
+#   - .htaccess # example of including a normally excluded file
+#
+# Defaults
+defaults:
+  - scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "default"
+  - scope:
+      path: "_posts"
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: "assets/img"
+    values:
+      image: true
+
+# Markdown settings
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+# Permalinks
+permalink: /:categories/:year/:month/:day/:title:output_ext
+# permalink: /:year/:month/:day/:title:output_ext # another common permalink structure
+
+# Collections (optional) - for things like projects, courses, etc.
+# collections:
+#   projects:
+#     output: true
+#     permalink: /projects/:path/
+#   courses:
+#     output: true
+#     permalink: /courses/:path/
+
+# SEO settings (handled by jekyll-seo-tag)
+# You can override default SEO settings here if needed
+# For example:
+# logo: /assets/img/logo.png
+# social:
+#   name: Jerry Song
+#   links:
+#     - https://twitter.com/jerrysong
+#     - https://github.com/jerrysong
+
+# Build settings
+# These are usually fine with defaults, but can be customized
+# source: .
+# destination: ./_site
+# quiet: false
+# verbose: false
+# future: false
+# show_drafts: false
+# limit_posts: 0
+# incremental: false
+# strict_front_matter: false
+# livereload: true # set to false if you don't want live reload
+# port: 4000 # default Jekyll port
+# host: 127.0.0.1 # default Jekyll host
+# baseurl: "" # the subpath of your site, e.g. /blog
+# url: "" # the base hostname & protocol for your site, e.g. http://example.com
+# encoding: "utf-8"
+# liquid:
+#   error_mode: strict # 'lax', 'warn', or 'strict'
+#   strict_filters: false
+#   strict_variables: false
+
+# Ensure this file is git tracked
+# git add _config.yml # Done by the tool if successful
